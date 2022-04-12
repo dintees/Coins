@@ -1,0 +1,46 @@
+* {
+    font-family: Consolas, monospace, sans-serif;
+}
+
+body {
+    width: 660px;
+    margin: 40px auto;
+}
+
+table {
+    border: none;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid black;
+}
+
+td, th {
+    padding: 6px;
+    border-left: 1px solid black;
+}
+
+input {
+    width: 50px;
+}
+
+.flaga {
+    width: 40px;
+    height: 20px;
+}
+
+.faja {
+    height: 20px;
+    cursor: pointer;
+}
+
+#napis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
